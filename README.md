@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Created at
+
+28 Nov 2019
+
+## Description
+
+A Simple React Currency Converter Project.
+
 ## Available Scripts
 
 In the project directory, you can run:
