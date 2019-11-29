@@ -90,7 +90,7 @@ export class CurrencyExchange extends Component {
     // console.log(currencyData.data.rates);
     this.setState({
       sourceRates: currencyData.data.rates,
-      rateList: Object.keys(currencyData.data.rates)
+      rateList: Object.keys(currencyData.data.rates).sort()
     }, () => {
       this.setProductList()
       this.setDestinationValueConverted(this.state.sourceAmount)
