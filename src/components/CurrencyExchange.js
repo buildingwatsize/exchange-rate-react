@@ -105,8 +105,6 @@ export class CurrencyExchange extends Component {
       item.price_source = item.price_usd * (1 / sourceRates["USD"])
       item.price_destination = sourceRates[destinationCurrency] * item.price_source
     })
-    // data[1].price_source = 
-    // data[1].price_destination = 
     this.setState({
       columns,
       data
